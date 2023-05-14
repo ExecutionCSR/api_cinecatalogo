@@ -1,0 +1,30 @@
+{
+  "name": "api_cinecatalogo",
+  "version": "1.0.0",
+  "description": "api para um catalogo de filmes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ExecutionCSR/api_cinecatalogo.git"
+  },
+  "keywords": [
+    "CINE",
+    "CATALOGO",
+    "CINEMA"
+  ],
+  "author": "caio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ExecutionCSR/api_cinecatalogo/issues"
+  },
+  "homepage": "https://github.com/ExecutionCSR/api_cinecatalogo#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.3.1",
+    "nodemon": "^2.0.22",
+    "sequelize": "^6.31.1"
+  }
+}
