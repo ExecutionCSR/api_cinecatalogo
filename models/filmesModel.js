@@ -19,4 +19,5 @@ const filmes = connection.define('filmes', {
         allowNull: true
     }
 });
+filmes.sync({force: true});
 module.exports = filmes
